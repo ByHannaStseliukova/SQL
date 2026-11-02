@@ -1,0 +1,8 @@
+-- Challenge: Revising Aggregations - The Count Function
+-- Link: https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem
+-- Task: count the cities in the CITY table with a population above 100000
+-- Difficulty: Easy
+
+SELECT COUNT(NAME)
+FROM CITY 
+WHERE POPULATION > 100000;
