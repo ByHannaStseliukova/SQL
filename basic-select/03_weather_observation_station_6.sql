@@ -1,0 +1,12 @@
+-- Challenge: Weather Observation Station 6
+-- Link: https://www.hackerrank.com/challenges/weather-observation-station-6/problem
+-- Task: list the unique city names from the STATION table that start with a vowel
+-- Difficulty: Easy
+
+SELECT DISTINCT CITY
+FROM STATION
+WHERE CITY LIKE 'A%'
+   OR CITY LIKE 'E%'
+   OR CITY LIKE 'I%'
+   OR CITY LIKE 'O%'
+   OR CITY LIKE 'U%';
